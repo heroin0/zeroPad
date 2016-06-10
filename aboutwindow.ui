@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>AboutWindow</class>
+ <widget class="QDialog" name="AboutWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>353</width>
-    <height>75</height>
+    <width>346</width>
+    <height>92</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>О программе</string>
+   <string>Dialog</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>20</x>
      <y>10</y>
-     <width>351</width>
-     <height>61</height>
+     <width>301</width>
+     <height>71</height>
     </rect>
    </property>
    <property name="sizePolicy">
@@ -28,15 +28,10 @@
      <verstretch>0</verstretch>
     </sizepolicy>
    </property>
-   <property name="font">
-    <font>
-     <family>Liberation Sans</family>
-     <italic>true</italic>
-    </font>
-   </property>
    <property name="text">
-    <string>Программа разработана Островским Сергеем
- с использованием QT 5.6. </string>
+    <string>This programm was created by S.Ostrowsky
+ using Qt Creator 3.2.1 and Qt 5.3.2
+ AMA at my Github.</string>
    </property>
   </widget>
  </widget>

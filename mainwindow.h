@@ -22,8 +22,15 @@ private slots:
 
     void on_about_triggered();
 
+    void on_openFileAction_triggered();
+
+    void on_closeAction_triggered();
+
+    void on_aboutAction_triggered();
+
 private:
     Ui::MainWindow *ui;
+  //  Ui::AboutWindow *myAbout;
 };
 
 #endif // MAINWINDOW_H

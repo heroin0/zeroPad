@@ -1,24 +1,22 @@
 #ifndef ABOUTWINDOW_H
 #define ABOUTWINDOW_H
 
-#include <QWidget>
+#include <QDialog>
 
-#include <QWidget>
 namespace Ui {
-class aboutWindow;
+class AboutWindow;
 }
 
-class aboutWindow : public QWidget
+class AboutWindow : public QDialog
 {
     Q_OBJECT
-public:
-    explicit aboutWindow(QWidget *parent = 0);
-    ~aboutWindow();
-signals:
 
-public slots:
+public:
+    explicit AboutWindow(QWidget *parent = 0);
+    ~AboutWindow();
+
 private:
-    Ui::aboutWindow *ui;
+    Ui::AboutWindow *ui;
 };
 
 #endif // ABOUTWINDOW_H

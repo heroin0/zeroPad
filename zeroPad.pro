@@ -21,4 +21,4 @@ HEADERS  += mainwindow.h \
     aboutwindow.h
 
 FORMS    += mainwindow.ui \
-    about.ui
+    aboutwindow.ui
